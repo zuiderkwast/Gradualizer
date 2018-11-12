@@ -2,10 +2,12 @@
 # For Emacs install package `editorconfig`
 # For Atom install package `editorconfig`
 # For Sublime Text install package `EditorConfig`
+# Github diff honours this file (tab_size, indent_size)
 root = true
 
 [*]
-indent_style = space
+tab_size = 8
+indent_style = tab
 indent_size = 4
 end_of_line = lf
 charset = utf-8
